@@ -1,0 +1,25 @@
+﻿<Window x:Class="Крафтон_пр3.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Крафтон_пр3"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Label Content="Введите x" HorizontalAlignment="Left" Margin="53,34,0,0" VerticalAlignment="Top" Height="43" Width="118"/>
+        <Label Content="Введите y" HorizontalAlignment="Left" Margin="53,81,0,0" VerticalAlignment="Top" Height="43" Width="118"/>
+        <Label Content="Введите z" HorizontalAlignment="Left" Margin="54,130,0,0" VerticalAlignment="Top" Height="43" Width="118"/>
+        <TextBox HorizontalAlignment="Left" Height="26" Margin="209,41,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="123"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="209,87,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="208,132,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <RadioButton Content="sin(x)" HorizontalAlignment="Left" Margin="391,73,0,0" VerticalAlignment="Top"/>
+        <RadioButton Content="cos(x)" HorizontalAlignment="Left" Margin="390,98,0,0" VerticalAlignment="Top" Checked="RadioButton_Checked"/>
+        <RadioButton Content="exp(x)" HorizontalAlignment="Left" Margin="390,121,0,0" VerticalAlignment="Top" Checked="RadioButton_Checked"/>
+        <TextBlock HorizontalAlignment="Left" Margin="392,41,0,0" TextWrapping="Wrap" Text="F(x)" VerticalAlignment="Top"/>
+        <TextBox HorizontalAlignment="Left" Height="130" Margin="45,181,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="538"/>
+        <Button Content="ПУСК" HorizontalAlignment="Left" Margin="78,319,0,0" VerticalAlignment="Top" Width="129" Height="41"/>
+        <Button Content="Очистить" HorizontalAlignment="Left" Margin="375,320,0,0" VerticalAlignment="Top" Width="129" Height="41"/>
+
+    </Grid>
+</Window>
